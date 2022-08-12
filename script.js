@@ -8,7 +8,7 @@ const wrapper = document.querySelector(".wrapper"),
     arrowBack = wrapper.querySelector("header i");
 
 let api;
-let apiKey = require('./credentials');
+
 
 inputField.addEventListener("keyup", e => {
     if (e.key == "Enter" && inputField.value != "") {
